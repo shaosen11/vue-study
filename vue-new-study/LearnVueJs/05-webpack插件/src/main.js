@@ -18,3 +18,17 @@ require('./css/normal.css')
 require('./css/special.less')
 
 document.writeln('shaosen')
+
+
+//5.使用bue进行开发
+import Vue from 'vue'
+// import App from './vue/app'
+import App from './vue/App.vue'
+
+new Vue({
+    el: '#app',
+    template: '<App/>',
+    components: {
+        App
+    }
+})
