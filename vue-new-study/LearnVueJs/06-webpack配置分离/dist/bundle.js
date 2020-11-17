@@ -754,6 +754,7 @@ module.exports = function normalizeComponent (
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
     name: "Cpn",
@@ -13716,7 +13717,7 @@ if(false) {
 
 exports = module.exports = __webpack_require__(0)(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 
 
@@ -13739,7 +13740,9 @@ var staticRenderFns = [
     return _c("div", [
       _c("h2", [_vm._v("我是Cpn")]),
       _vm._v(" "),
-      _c("p", [_vm._v("我是Cpn组件的内容")])
+      _c("p", [_vm._v("我是Cpn组件的内容")]),
+      _vm._v(" "),
+      _c("p", [_vm._v("aaaaab")])
     ])
   }
 ]
