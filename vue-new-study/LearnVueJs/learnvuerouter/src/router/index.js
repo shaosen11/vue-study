@@ -13,6 +13,7 @@ const HomeMessage = () => import('../components/HomeMessage')
 const About = () => import('../components/About')
 const User = () => import('../components/User')
 const Profile = () => import('../components/Profile')
+const Blog = () => import('../components/Blog')
 
 //1.通过vue.use(插件)，安装插件
 Vue.use(VueRouter)
@@ -65,6 +66,13 @@ const routes = [
     component: Profile,
     meta: {
       title: '档案'
+    }
+  },
+  {
+    path: '/blog',
+    component: Blog,
+    meta: {
+      title: '博客'
     }
   }
 ]
