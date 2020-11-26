@@ -64,6 +64,12 @@ module.exports = {
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
       },
+      {
+        test: /\.scss/, //配置sass转css
+        use: [
+          {loader: 'style-loader'}, {loader: 'css-loader'}, {loader: 'sass-loader'}
+        ]
+      }
     ]
   },
   node: {

@@ -12,11 +12,11 @@
       <div class="content">{{item.content}}</div>
       <div class="control">
         <span class="like" :class="{active: item.isLike}" @click="likeClick(item)">
-          <i class="iconfont icon-like"></i>
+          <i class="iconfont icon-like el-icon-thumb"></i>
           <span class="like-num">{{item.likeNum > 0 ? item.likeNum + '人赞' : '赞'}}</span>
         </span>
         <span class="comment-reply" @click="showCommentInput(item)">
-          <i class="iconfont icon-comment"></i>
+          <i class="iconfont icon-comment el-icon-chat-square"></i>
           <span>回复</span>
         </span>
       </div>
@@ -30,7 +30,7 @@
           <div class="reply-bottom">
             <span>{{reply.date}}</span>
             <span class="reply-text" @click="showCommentInput(item, reply)">
-              <i class="iconfont icon-comment"></i>
+              <i class="iconfont icon-comment el-icon-chat-square"></i>
               <span>回复</span>
             </span>
           </div>

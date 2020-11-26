@@ -14,6 +14,7 @@
     <button @click="userClick">用户</button>
     <button @click="profileClick">档案</button>
     <router-link to="/blog">评论</router-link>
+    <router-link to="/mavon">mavon</router-link>
     <keep-alive exclude="Profile,User">
       <router-view></router-view>
     </keep-alive>

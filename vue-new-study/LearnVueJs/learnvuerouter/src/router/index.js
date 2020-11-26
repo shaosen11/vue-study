@@ -14,7 +14,7 @@ const About = () => import('../components/About')
 const User = () => import('../components/User')
 const Profile = () => import('../components/Profile')
 const Blog = () => import('../components/Blog')
-
+const Mavon = () => import('../components/mavonEditor')
 //1.通过vue.use(插件)，安装插件
 Vue.use(VueRouter)
 
@@ -73,6 +73,13 @@ const routes = [
     component: Blog,
     meta: {
       title: '博客'
+    }
+  },
+  {
+    path: '/mavon',
+    component: Mavon,
+    meta: {
+      title: 'Mavon'
     }
   }
 ]
